@@ -1,0 +1,8 @@
+.center-grid-container {
+    display: grid;
+    place-items: center;
+}
+
+.insert-category-input {
+    margin-bottom: 17px;
+}

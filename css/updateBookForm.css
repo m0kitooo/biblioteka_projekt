@@ -1,0 +1,11 @@
+textarea {
+    resize: none;
+    width: 600px;
+    height: 100px;
+}
+
+.center-grid-container {
+    display: grid;
+    place-items: center;
+    margin-bottom: 24px;
+}

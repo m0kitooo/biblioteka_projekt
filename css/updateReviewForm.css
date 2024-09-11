@@ -1,0 +1,10 @@
+.star-img {
+    width: 25px;
+    height: 25px;
+}
+
+textarea {
+    resize: none;
+    width: 600px;
+    height: 100px;
+}

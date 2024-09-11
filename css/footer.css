@@ -1,0 +1,54 @@
+body {
+    margin: 0px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+}
+
+/* ten css nie jest do funkcjonalnosci footer-a */
+
+.report-textarea {
+    resize: none;
+    width: 400px;
+    height: 75px;
+    padding: 6px 6px 6px 6px;
+    border: 1px solid black;
+}
+
+.report-textarea:focus {
+    outline: none;
+}
+
+footer {
+    /* background-color: grey; */
+    background-color: rgba(0, 0, 0, .7);
+    background-blend-mode: multiply;
+    background-image: url("../imgs/nonDatabaseImgs/library_img.jpg");
+    background-size: cover;
+    background-position: bottom;
+}
+
+.footer-paragraph {
+    color: white;
+}
+
+.footer-form {
+    display: flex;
+    align-items: center;
+}
+
+.footer-bttn {
+    margin-left: 6px;
+    margin-right: 6px;
+    border: 1px solid black;
+    background-color: white;
+    padding: 6px;
+    cursor: pointer;
+}

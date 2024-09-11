@@ -1,0 +1,43 @@
+.search-input {
+    background-image: url(../imgs/nonDatabaseImgs/loop.png);
+    background-repeat: no-repeat;
+    background-position: 6px center;
+    background-size: 18px, 18px;
+    /* position: relative; */
+    width: 250px;
+    padding: 6px 6px 6px 30px;
+    /* border: 1px solid black; */
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    border-right: none;
+}
+
+.search-input:focus {
+    outline: none;
+}
+
+.search-button {
+    border: 1px solid black;
+    background-color: white;
+    padding: 6px;
+    cursor: pointer;
+}
+
+.search-form {
+    font-size: 0;
+}
+
+.dynamic-search-results-container {
+    font-size: medium;
+    position: absolute;
+    width: 274px;
+    padding-left: 6px;
+    padding-right: 6px;
+    background-color: white;
+    /* border: 1px solid black; */
+    border-top: none;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}

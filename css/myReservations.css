@@ -1,0 +1,9 @@
+.book-img {
+    height: 75px;
+    width: 50px;
+}
+
+.center-grid-container {
+    display: grid;
+    place-items: center;
+}

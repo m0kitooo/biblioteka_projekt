@@ -1,0 +1,33 @@
+.button-styling {
+    border: 1px solid black;
+    background-color: white;
+    padding: 6px;
+    cursor: pointer;
+}
+
+button {
+    border: 1px solid black;
+    background-color: white;
+    padding: 6px;
+    cursor: pointer;
+}
+
+input {
+    width: 250px;
+    padding: 6px 6px 6px 6px;
+    border: 1px solid black;
+}
+
+input:focus {
+    outline: none;
+}
+
+.centered-container {
+    display: flex;
+    justify-content: center;
+    padding-left: 0px; /*in case of list*/
+}
+
+a {
+    color: black;
+}

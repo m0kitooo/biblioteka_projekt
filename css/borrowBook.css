@@ -1,0 +1,11 @@
+.book-img {
+    height: 75px;
+    width: 50px;
+    /* margin-left: 10px;
+    margin-right: 10px; */
+}
+
+.center-grid-container {
+    display: grid;
+    place-items: center;
+}

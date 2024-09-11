@@ -1,0 +1,46 @@
+.center-grid-container {
+    display: grid;
+    place-items: center;
+}
+
+.heart {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.heart:hover {
+    transform: scale(1.1);
+}
+
+.star-img {
+    width: 25px;
+    height: 25px;
+}
+
+.star-interactive {
+    cursor: pointer;
+    transition: transform 0.3s;
+  }
+  
+.star-interactive:hover {
+    transform: scale(1.1);  /* Make stars slightly larger when hovered */
+}
+  
+
+.book-img {
+    height: 450px;
+    width: 300px;
+}
+
+textarea {
+    resize: none;
+    width: 600px;
+    height: 100px;
+}
+
+.zero-count-paragraph {
+    color: red;
+    /* margin-top: 0px;
+    margin-bottom: 0px; */
+}

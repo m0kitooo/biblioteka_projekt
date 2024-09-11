@@ -1,0 +1,14 @@
+main {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+table {
+    display: flex;
+    justify-content: center;
+}
+
+.book-img {
+    height: 75px;
+    width: 50px;
+}
